@@ -70,8 +70,8 @@
              </div>
                      
            <div class="text-center">
-           <button type="submit" name="staff_login" value="Login" class="btn btn-primary btn-sm rounded-0">Submit</button>
-           <button class="btn btn-info btn-sm rounded-0 text-light"><a href="login.php" style="text-decoration:none;color:white">Admin Login</a></button>
+           <button type="submit" name="staff_login" class="btn btn-primary btn-sm rounded-0">Submit</button>
+           
            </div>
     
          </form>

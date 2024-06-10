@@ -1,5 +1,5 @@
 <?php include "header.php";
-    include "salesModel.php";
+    // include "invoiceMod.php";
 ?>
 <style>
     .container{
@@ -13,11 +13,10 @@
              <div class="col-md-3">
                 <div class="list-group">
                     <a href="inventory.php" class="list-group-item main-color-bg">
-                        <span class="glyphicon glyphicon-cog" aria-hidden="true"></span> Inventory</a>
-                        <a href="staffdash.php" class="list-group-item"> <!--what change does 'active' bring?-->
-                        <span class="fa fa-capsules" aria-hidden="true"></span> Medicine Sale</a>
-                        <a href="debtor.php" class="list-group-item">
-                        <span class="fa fa-capsules" aria-hidden="true"></span> Debtors</a>
+                    <img src="assets/icons/stack.svg"> Inventory</a>
+                        <a href="staffdash.php" class="list-group-item">
+                        <img src="assets/icons/cash-stack.svg"> Medicine Sale</a>
+                        
                 </div>
             </div>
 

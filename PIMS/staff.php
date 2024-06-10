@@ -15,18 +15,18 @@
             <div class="col-md-3">
                 <div class="list-group">
                     <a href="#" class="list-group-item active main-color-bg">
-                        <span class="glyphicon glyphicon-cog" aria-hidden="true"></span>Administration</a>
+                    <img src="assets/icons/pencil-square.svg">Administration</a>
                     <a href="medicine.php"class="list-group-item">
-                        <span class="fa fa-capsules" aria-hidden="true"></span> Medicine
+                    <img src="assets/icons/capsule.svg">Medicine
                     </a>
-                    <a href="staff.php" class="list-group-item">
-                        <span class="fa fa-plus-circle" aria-hidden="true"></span>Staff
+                    <a href="staff.php" class="list-group-item active">
+                        <img src="assets/icons/person-fill.svg">Staff
                     </a>
                     <a href="supplier" class="list-group-item">
-                        <span class="fa fa-truck-moving" aria-hidden="true"></span> Supplier
+                        <img src="assets/icons/truck.svg"> Supplier
                     </a>
                     <a href="debtor.php" class="list-group-item">
-                        <span class="fa fa-capsules" aria-hidden="true"></span> Debtors
+                    <img src="assets/icons/person-exclamation.svg"> Debtors
                     </a>
                 </div>
             </div>

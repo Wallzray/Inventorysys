@@ -11,7 +11,7 @@ if(isset($_POST['add_admin'])){
         header("Location: index.php");
     }
     else{
-        $reg= $db->query("INSERT INTO staff values('$admin_name', '$admin_password', 'Admin');" or mysqli_error($db));
+        $reg= $db->query("INSERT INTO staff(username, userpassword, userrole) values('$admin_name', '$admin_password', 'Admin')");
         if($reg){
             header("Location: dashboard.php");
         }

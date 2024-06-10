@@ -1,4 +1,4 @@
-<?php include "header.php";
+<?php include "staffheader.php";
     include "globalModel.php";
 ?>
 <style>
@@ -14,9 +14,6 @@
 		color: #b3b3b3;
 		font-size: 1em;
 	}
-    .container{
-        margin-top: 10px;
-    }
 </style>
 <section id="main">
     <div class="container">
@@ -24,11 +21,8 @@
         <div class="row">
              <div class="col-md-3">
                 <div class="list-group">
-                    <a href="inventory.php" class="list-group-item main-color-bg">
-                        <span class="glyphicon glyphicon-cog" aria-hidden="true"></span> Inventory</a>
-                        <a href="staffdash.php" class="list-group-item"> <!--what change does 'active' bring?-->
-                        <span class="fa fa-capsules" aria-hidden="true"></span> Medicine Sale</a>
-                        
+                <a href="staffdash.php" class="list-group-item active" >
+				<img src="assets/icons/cash-stack.svg"> Medicine Sale</a>
                 </div>
             </div>
 
@@ -48,14 +42,14 @@
 			<legend>Select Medicine</legend>
 			<div class="row">
 				<div class="col-sm-7" style="">
-					<label for="medicine_name">Medicine Name</label>
-					<select name="medicine_name" class="form-control selectpicker" data-live-search="true">
+					<label>Medicine Name</label>
+					<select name="medicine_name" class="form-control selectpicker">
 						<option value="">-- Select --</option>
-						<?php foreach ($med_query as $mq) {?>
-							<option value="<?php $mq[2]?>"><?php echo '$mq[2]';?></option>
+						<?php foreach ($med_query as $mq){?>
+							<option value="<?php echo $mq['medicine_name'];?>"><?php echo $mq["medicine_name"]."@ ".$mq['unit_selling_price'];?></option>
 						<?php }?>
 					</select>
-				</div>
+				</div>				
 				<div class="col-sm-4">
 					<label for="qty">Quantity</label>
 					<input type="number" class="form-control" name="qty">
@@ -78,7 +72,7 @@
 		</div>
         </div>
 		<div class="col-sm-4" style="margin-top: 25px;">
-			<button type="button" class="pull-left btn btn-primary" name="add_sale">ADD</button>
+			<button type="submit" class="pull-left btn btn-primary" name="add_sale">ADD</button>
 		</div>
 	</div>
 </div>

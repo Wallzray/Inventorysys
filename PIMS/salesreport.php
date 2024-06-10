@@ -25,15 +25,15 @@
 			<div class="col-md-3">
                 		<div class="list-group">
 					<a href="#" class="list-group-item main-color-bg">
-						<span class="glyphicon glyphicon-cog" aria-hidden="true"></span> Sales</a>
+                    <img src="assets/icons/cash-stack.svg">  Sales</a>
                     <a href="sales.php" class="list-group-item active">
-						<span class="fa fa-capsules" aria-hidden="true"></span>Sales Statement</a>
+                    <img src="assets/icons/file-bar-graph.svg">Sales Statement</a>
 				</div>
 			</div>
 			<div class="col-md-9">		
                 <div class="rounded-0 panel panel-blue">
 					<div class="panel-heading rounded-0 main-color-bg">
-                    <h3 class="panel-title">Sell Report</h3>
+                    <h3 class="panel-title">Sales Report</h3>
                     <h5>Total sales: <?php echo $totalsales; ?></h5>
 					</div>
                 </div>

@@ -15,18 +15,18 @@
             <div class="col-md-3">
                 <div class="list-group">
                     <a href="#" class="list-group-item active main-color-bg">
-                        <span class="glyphicon glyphicon-cog" aria-hidden="true"></span> Administartion</a>
-                    <a href="medicine.php"class="list-group-item ">
-                        <span class="fa fa-capsules" aria-hidden="true"></span> Medicine
+                    <img src="assets/icons/pencil-square.svg">  Administartion</a>
+                    <a href="medicine.php"class="list-group-item">
+                    <img src="assets/icons/capsule.svg"> Medicine
                     </a>
                     <a href="staff.php" class="list-group-item">
-                        <span class="fa fa-plus-circle" aria-hidden="true"></span>Staff
+                    <img src="assets/icons/person-fill.svg ">Staff
                     </a>
                     <a href="supplier.php" class="list-group-item ">
-                        <span class="fa fa-truck-moving" aria-hidden="true"></span> Supplier
+                    <img src="assets/icons/truck.svg ">Supplier
                     </a>
                     <a href="debtor.php" class="list-group-item">
-                        <span class="fa fa-capsules" aria-hidden="true"></span> Debtors
+                    <img src="assets/icons/person-exclamation.svg "> Debtors
                     </a>
                 </div>
             </div>
@@ -132,10 +132,10 @@
 	    		<td style='text-align: center;'><?php echo $mq['expirydate']; ?></td>
                 <td style='text-align: center;'>
 	    			<a style='margin: 5px;' href="updates.php?med_update=<?php echo $mq['medicine_name']; ?>">
-	    				<span class='glyphicon glyphicon-edit'></span>
+                    <img src="assets/icons/pencil-fill.svg">
 	    			</a>
                     <a style='margin: 5px;' href="updates.php?delete_med=<?php echo $mq['medicine_id']; ?>">                 
-	    				<span class='fa fa-trash' style='color:crimson'></span>
+                    <img src="assets/icons/trash3.svg">
                     </a>
                 </td>
             </tr>

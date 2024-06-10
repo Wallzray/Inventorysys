@@ -3,7 +3,7 @@ body {
 }
 
 .navbar {
-    min-height: 33px;
+    min-height: 33px !important;
     margin-bottom: 0;
     border-radius: 0;
 }
@@ -13,17 +13,18 @@ body {
 
 .navbar-nav>li>a,
 .navbar-brand {
-    /* padding: 0; */
+    padding-top: 6px !important;
+    padding-bottom: 0 !important;
     height: 33px;
 }
 
 
-/* Main Theme color*/
+/* Main Theam color*/
 
 .main-color-bg {
-    background-color: #6c797f;
-    border-color: #6c797f;
-    color: #f4f4f4;
+    background-color: #6c797f !important;
+    border-color: #6c797f !important;
+    color: #f4f4f4 !important;
 }
 
 
@@ -35,26 +36,31 @@ body {
 }
 
 .navbar-default .navbar-brand {
-    color: #ffffff;
+    color: #ceddef;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #ceddef;
 }
 
 .navbar-default .navbar-text {
-    color: #ffffff;
+    color: #ceddef;
 }
 
 .navbar-default .navbar-nav>li>a {
-    color: #ffffff;
+    color: #ceddef;
 }
 
 .navbar-default .navbar-nav>li>a:hover,
 .navbar-default .navbar-nav>li>a:focus {
-    color: #0071fc;
+    color: #ceddef;
 }
 
 .navbar-default .navbar-nav>.active>a,
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
-    color: #ffffff;
+    color: #ceddef;
     background-color: #5893d4;
 }
 
@@ -71,7 +77,7 @@ body {
 
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-    background-color: rgb(35, 35, 241);
+    background-color: #5893d4;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -95,8 +101,8 @@ body {
 /*Custom*/
 
 .main-color-bg {
-    background-color: #4491b5;
-    border-color: #4491b5;
+    background-color: #4491b5 !important;
+    border-color: #4491b5 !important;
     color: #f4f4f4;
 }
 
@@ -117,8 +123,8 @@ body {
 
 /* Breadcrumb */
 
-.container .breadcrumb {
-    background: rgb(165, 1, 165);
+.breadcrumb {
+    background: #01cdfb;
     color: #e1e0e0;
     margin-top: .5em;
     border-radius: 0px;
@@ -141,9 +147,11 @@ body {
 }
 
 
+/*Footer*/
+
 #login {
     margin-top: 30px;
-
+    /*Push down*/
 }
 
 @media (max-width: 991px) {
@@ -188,12 +196,14 @@ body {
     background-color: #729d39;
 }
 
-
+.well {
+    border-radius: 0px;
+}
 
 .rounded-0 {
     border-radius: 0;
 }
 
-section #main {
+section#main {
     padding: 1em .5em;
 }

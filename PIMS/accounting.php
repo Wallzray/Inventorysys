@@ -16,10 +16,10 @@
 			<div class="col-md-3">
 				<div class="list-group">
 					<a href="#" class="list-group-item active main-color-bg">
-						<span class="glyphicon glyphicon-cog" aria-hidden="true"></span> Account</a>
+					<img src="assets/icons/briefcase-fill.svg"> Account</a>
 					<a href="accounting.php"
 					   class="list-group-item">
-						<span class="	fa fa-capsules" aria-hidden="true"></span> Profit-Loss</a>
+					   <img src="assets/icons/plus-slash-minus.svg"> Profit-Loss</a>
 		
 				</div>
 			</div>

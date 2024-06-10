@@ -1,5 +1,6 @@
 Get a better db name.
-Fix the pages names
-Use Javascript to show the quantity(low amounts) and quality(expiry)
 Add a better favicon.
-Pending pages: inventory.php, et al
+
+Passwords
+admin=admin124
+staff: nancy256=justnancy24

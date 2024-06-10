@@ -27,12 +27,12 @@ function calAmount() {
             <div class="col-md-3">
                 <div class="list-group">
                     <a href="inventory.php" class="list-group-item main-color-bg active">
-                        <span class="glyphicon glyphicon-cog" aria-hidden="true"></span> Inventory</a>
+                    <img src="assets/icons/stack.svg"> Inventory</a>
                         <a href="inventory.php#insert" class="list-group-item">
-                        <span class="fa fa-capsules" aria-hidden="true"></span> Insert Purchase Info.</a>
+                        <img src="assets/icons/database-add.svg"> Insert Purchase Info.</a>
                     
                     <a href="inventory.php#purchase_statement" class="list-group-item">
-                        <span class="fa fa-plus-circle" aria-hidden="true"></span> Purchase Statement</a>
+                    <img src="assets/icons/file-bar-graph.svg"> Purchase Statement</a>
                 </div>
             </div>
         
@@ -154,7 +154,7 @@ function calAmount() {
                             <th style="text-align: center;">Amount Due</th>
                             <th style="text-align: center;">Supplier</th>
 							<th style="text-align: center;">Expiry</th>
-                            <th style="text-align: center;">Action</th>
+                            
                         </tr>
                     </thead>
             
@@ -177,11 +177,7 @@ function calAmount() {
                 <td style='text-align: center;'><?php echo $pq['amount_due']; ?></td>
                 <td style='text-align: center;'><?php echo $pq['supplier_name']; ?></td>
 	    		<td style='text-align: center;' id= "exp_date"><?php echo $pq['expirydate']; ?></td>
-                <td style='text-align: center;'>
-                <a style='margin: 5px;' href='update.php?purchase_update=<?php echo $pq['purchase_id']; ?>'>
-	    				<span class='glyphicon glyphicon-edit'></span>
-	    			</a>
-                </td>
+                
             </tr>
             <?php } ?>
             </tbody>

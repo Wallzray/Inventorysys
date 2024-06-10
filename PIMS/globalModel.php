@@ -10,7 +10,7 @@
     
     $date= date('Y-m-d');
    
-    $query = $db->query('SELECT * FROM medicine_info');
+    $query = $db->query('SELECT DISTINCT(generic_name) FROM medicine_info');
     $gen_num= mysqli_num_rows($query);
 
     $ups = $db->query("SELECT SUM(unit_price) FROM purchase_info where purchase_date like '$date'");

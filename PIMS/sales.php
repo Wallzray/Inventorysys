@@ -2,7 +2,7 @@
 	  require "salesModel.php";
 ?>
 
-<!-- /.Breadcrumb -->
+
 <section> 
     <div class="container">
     <ol class="breadcrumb">
@@ -17,9 +17,9 @@
 			<div class="col-md-3">
                 		<div class="list-group">
 					<a href="#" class="list-group-item active main-color-bg">
-						<span class="glyphicon glyphicon-cog" aria-hidden="true"></span> Sales</a>
+					<img src="assets/icons/cash-stack.svg"> Sales</a>
                     <a href="sales.php" class="list-group-item inactive">
-						<span class="fa fa-capsules" aria-hidden="true"></span>Sales Statement</a>
+					<img src="assets/icons/file-bar-graph.svg">Sales Statement</a>
 				</div>
 			</div>
 			<div class="col-md-9">		

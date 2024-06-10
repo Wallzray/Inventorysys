@@ -32,18 +32,18 @@
              <div class="col-md-3">
                 <div class="list-group">
                 <a href="#" class="list-group-item active main-color-bg">
-                        <span class="glyphicon glyphicon-cog" aria-hidden="true"></span> Administartion</a>
+                <img src="assets/icons/pencil-square.svg"> Administartion</a>
                     <a href="medicine.php"class="list-group-item">
-                        <span class="fa fa-capsules" aria-hidden="true"></span> Medicine
+                    <img src="assets/icons/capsule.svg"> Medicine
                     </a>
                     <a href="staff.php" class="list-group-item">
-                        <span class="fa fa-plus-circle" aria-hidden="true"></span>Staff
+                    <img src="assets/icons/person-fill.svg">Staff
                     </a>
                     <a href="supplier.php" class="list-group-item">
-                        <span class="fa fa-truck-moving" aria-hidden="true"></span> Supplier
+                    <img src="assets/icons/truck.svg"> Supplier
                     </a>
-                    <a href="debtor.php" class="list-group-item">
-                        <span class="fa fa-capsules" aria-hidden="true"></span> Debtors
+                    <a href="debtor.php" class="list-group-item active">
+                    <img src="assets/icons/person-exclamation.svg"> Debtors
                     </a>
                 </div>
             </div>
@@ -79,7 +79,7 @@
                     <td style='text-align: center;'><?php echo $drow[10]; ?></td>
                     <td style='text-align: center;'>
                         <a style='margin: 5px;' href="updates.php?debt_update=<?php echo $drow[0]; ?>">
-	    			    	<span class='glyphicon glyphicon-edit'></span>
+                        <img src="assets/icons/pencil-fill.svg">
 	    			    </a>   
                     </td>
                 </tr>
